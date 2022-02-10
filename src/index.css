@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin:0px;
+  padding:0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  font-size: 110%;
+  background-color: rgb(216, 230, 231);
+}
+
+#root{
+  text-align:center;
+}
+.calculator-title{
+  font-size:45px;
+  color: black;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background-color: #4ca3af; 
+  font-weight: 600;
+}
+.screen-row input{
+ width: 500px;
+ background: #4ca3af;
+ border: 0px;
+ color: rgb(14, 13, 13);
+ padding: 10px;
+ text-align: right;
+ border: 1px solid black;
+ margin-bottom: 5px;
+}
+.mainCalc{
+  margin:0px;
+  padding:0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+input[type="button"]{
+  width: 100px;
+  height: 60px;
+  background: #4ca3af;
+  border: 1px solid #222;
+  padding: 8px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 5px;
+}
+  
+input[type="button"]:active{
+    background: rgb(7, 7, 7);
+    color: white;
+}
